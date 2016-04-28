@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Haziz Feroz Khan</title>
+    <link href="http://hkprojects.base.pk/HK1-v1.1/fav.jpg" rel="icon">
     <link href="fonts/font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet">
     <link href="fonts/walkway/stylesheet.css" rel="stylesheet">
     <link href="fonts/fonts/alex/stylesheet.css" rel="stylesheet">
@@ -19,10 +20,10 @@
         <h1>Haziz Feroz Khan</h1>
     </div>
     <ul>
-        <a href=""><li><i class="fa fa-home" aria-hidden="true"></i>home</li></a>
-        <a href=""><li><i class="fa fa-user" aria-hidden="true"></i>about</li></a>
-        <a href=""><li>work</li></a>
-        <a href=""><li>contact</li></a>
+        <a href="index.html"><li><i class="fa fa-home" aria-hidden="true"></i>home</li></a>
+        <a href="#about"><li><i class="fa fa-user" aria-hidden="true"></i>about</li></a>
+        <a href="#work"><li><i class="fa fa-globe"></i>work</li></a>
+        <a href="#contact"><li><i class="fa fa-phone"></i>contact</li></a>
     </ul>
 </nav>
 <nav class="navbar navbar-default" id="navBar">
@@ -41,8 +42,6 @@
 <div id="block">
     <section id="home">
         <button id="menuBtn" onclick="openNav()"><i class="fa fa-bars" id="bars" aria-hidden="true"></i> Menu</button>
-        <!--<h2 id="navbarTitle">Haziz Feroz Khan</h2>-->
-
         <div id="homeData">
             <img src="imgs/me.jpg">
             <h1>Haziz Feroz Khan</h1>
@@ -50,11 +49,56 @@
             <br>
             <a href="#about"><button id="goToAboutPageBtn" class="btn btn-danger"><i class="fa fa-angle-double-down x-large" aria-hidden="true"></i></button></a>
         </div>
-
     </section>
     <section id="about">
-        <!--About-->
+        <div class="container">
+            <h2 id="aboutHead">About Me</h2>
+            <div class="row" id="innerAbout">
+                <div class="col-md-3">
+                    <!--<center>-->
+                    <img src="imgs/me3.jpg" class="img-responsive aboutImg">
+                    <!--</center>-->
+                </div>
+                <div class="col-md-9 AboutBox">
+                    <h2 id="aboutMeName">Haziz Feroz Khan</h2>
+                    <p class="tagline">Web Developer</p>
+                    <p class="aboutTxt">Hi, This is Haziz, I'm a Freelance Web Designer & Developer and a Blogger from Karachi, in the Pakistan. I'm an enthusiastic, creative designer and I'm  passionate about creating beautiful, accessible websites using Web Standards.</p>
+                    <h3 id="aboutMeMore">More About Me</h3>
+                    <p class="aboutTxt">My age is 16, I am a student of Matriculation from SM Public Academy and the author of Tabsarah, Wordpress, Blogger and Website developer from Pakistan, Enjoy to write articles on News, Fashion, Lifestyle, Technologies, Hot Gossip's, Tutorials, Technology And Many More Topics.
+                        Since 2013 with the AIM to Infotain "Pakistan". </p>
+                </div>
+            </div>
+            <h2 id="aboutSkillsHead">Experties</h2>
+            <div class="row">
+                <div class="container skillsContainer">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <h3><i class="fa fa-html5" style="color: #f07526;"></i> HTML5</h3>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <h3><i class="fa fa-css3" style="color: purple"></i> CSS3</h3>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <h3><img src="imgs/js.png" height="25px" width="25px"> JavaScript</h3>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <h3><img src="imgs/Boostrap.svg" height="25px" width="25px"> Bootstrap</h3>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                    <h3><i class="fa fa-search" style="color: blue"></i> SEO</h3>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                    <h3><img src="imgs/Blogger.png" height="25px" width="25px"> Blogger</h3>
+                    </div>
+                    <div class="col-lg-12 col-md-4 col-sm-4 col-xs-12">
+                        <h3><i class="fa fa-wordpress"></i> Wordpress</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </section>
+
     <section id="work">
         <!--work-->
     </section>
