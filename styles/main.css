@@ -176,7 +176,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-#aboutHead{
+#aboutHead, #workHead{
     color: white;
     font-family: alex;
     text-align: center;
@@ -208,6 +208,10 @@
     color: white;
     border-bottom: 3px double #333;
     width: 150px;
+}
+/**Work Section**/
+#work{
+    background-color: #e80455;
 }
 /**@media width**/
 @media (max-width: 768px){
