@@ -176,7 +176,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-#aboutHead, #workHead{
+#aboutHead, #workHead, #contactHead{
     color: white;
     font-family: alex;
     text-align: center;
@@ -212,6 +212,35 @@
 /**Work Section**/
 #work{
     background-color: #e80455;
+}
+/**Contact**/
+#contact{
+    background-color: #333333;
+    color: white;
+    /*height: 100%;*/
+}
+#contactHead{
+    border-bottom: 2px solid #e80455;
+}
+.blockquote{
+    margin-left: 40px;
+}
+#fb{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    background-color: #3a5795;
+    /*width: 100%;*/
+    font-weight: bold;
+    font-size: large;
+}
+#twitter{
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: #1da1f2;
 }
 /**@media width**/
 @media (max-width: 768px){
